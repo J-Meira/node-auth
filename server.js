@@ -1,3 +1,4 @@
+require('dotenv').config();
 const app = require('./app');
 const port = 3008;
 const db = require('./database');
